@@ -18,7 +18,7 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
-import full07 from '../assets/images/thumbs/2019-07-11 (2).png'
+import full07 from '../assets/images/thumbs/2019-07-11 (3).png'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: full07, thumbnail: full07, caption: 'bookr', description: 'Test', link: 'bookr.us'},
