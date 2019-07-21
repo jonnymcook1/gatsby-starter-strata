@@ -18,24 +18,31 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
+import full07 from '../assets/images/thumbs/2019-07-11 (2).png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: full07, thumbnail: full07, caption: 'bookr', description: 'Test', link: 'bookr.us'},
+    // { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    // { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    // { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    // { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    // { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
 
 class HomeIndex extends React.Component {
 
     render() {
+        const divStyle = {
+            fontSize: 70,
+            margin: 25,
+          };
         const siteTitle = "Gatsby Starter - Strata"
         const siteDescription = "Site description"
 
         return (
             <Layout>
+            <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
+
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
@@ -45,29 +52,39 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>About John</h2>
+                            <h2>About</h2>
                         </header>
-                        <p>I am a Web Developer living in Dallas, Tx.  Born in Tulsa, Ok and US Air Force veteran. I started my Developer journey in August, 2019. I am proficient in working with React.js, Node.js, and PostgreSQL to build web applications with high functionality and clean designs. I love working on projects that bring value to people. lets build one!</p>
+                        <p>I am a Web Developer living in Dallas, Tx.  Born in Tulsa, Ok and US Air Force veteran. I started my Developer journey in August, 2019. I love working on projects that bring value to people. lets build one!</p>
                         <ul className="actions">
                             {/* <li><a href="#" className="button">Learn More</a></li> */}
                         </ul>
                     </section>
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Projects</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description, link }) => ({
                             source,
                             thumbnail,
                             caption,
-                            description
+                            description, 
+                            link
                         }))} />
 
-                        <ul className="actions">
+                        {/* <ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
+                        </ul> */}
                     </section>
-
+                    <section id='three'>
+                        <h2>Skills</h2>
+                        <i class="devicon-react-original" style={divStyle}></i>
+                        <i class="devicon-nodejs-plain" style={divStyle}></i>
+                        <i class="devicon-postgresql-plain" style={divStyle}></i>
+                        <i class="devicon-javascript-plain" style={divStyle}></i>
+                        <i class="devicon-html5-plain" style={divStyle}></i>
+                        <i class="devicon-css3-plain" style={divStyle}></i>
+                        <i class="devicon-git-plain" style={divStyle}></i>
+                    </section>
                     <section id="three">
                         <h2>Contact</h2>
                         {/* <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> */}
