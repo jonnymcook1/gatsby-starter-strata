@@ -39,6 +39,7 @@ class HomeIndex extends React.Component {
           };
         const siteTitle = "John Cook"
         const siteDescription = "Site description"
+        const siteImage = 'Site Image'
 
         return (
             <Layout>
@@ -47,6 +48,7 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
+                        <meta property='og:image' content={siteImage} />
                 </Helmet>
 
                 <div id="main">

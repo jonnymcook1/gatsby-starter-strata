@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "John Cook",
-    description: "John Cook"
+    description: "John Cook",
+    image: 'src/assets/images/JonnyDallas.jpg'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
