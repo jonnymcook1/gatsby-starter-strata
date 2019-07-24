@@ -9,8 +9,9 @@ class Header extends React.Component {
             <header id="header">
                 <div className="inner">
                     <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
-                    <h1><strong>John Cook,</strong>
-                    <br/>Web Developer
+                    <h1><strong>John Cook</strong>
+                    <br/> 
+                    <h1>Web Developer</h1>
                     </h1>
                 </div>
                 <Footer />
