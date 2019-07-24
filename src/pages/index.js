@@ -23,7 +23,7 @@ import full08 from '../assets/images/thumbs/alpha1.png'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: full07, thumbnail: full07, description: 'bookr is an application to book artist and influencers for an event. bookr lets any artist register and users can then send in an event request which the artist can accept or decline. Inspired by the notorious "FyreFestival". ', link: 'https://bookr.us/#/' , website: 'bookr.us', github: 'https://github.com/jonnymcook1/bookr'},
-    { id: '2', source: full08, thumbnail: full08, description: 'Alpha Air', link: 'alpha.com', website: 'alpha.com', github: 'https://github.com/flight-club'},
+    { id: '2', source: full08, thumbnail: full08, description: 'Alpha was a group project that was a mash up of all the best parts on the top airline industries websites. With Alpha, members and users can book flights using the Sabre API and also create their own account to gain travel points.', link: 'alpha.com', website: 'alpha.com', github: 'https://github.com/flight-club'},
     // { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
@@ -37,7 +37,7 @@ class HomeIndex extends React.Component {
             fontSize: 70,
             margin: 20,
           };
-        const siteTitle = "Gatsby Starter - Strata"
+        const siteTitle = "John Cook"
         const siteDescription = "Site description"
 
         return (
@@ -55,7 +55,9 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About</h2>
                         </header>
-                        <p>I am a Web Developer living in Dallas, Tx.  Born in Tulsa, Ok and US Air Force veteran. I moved to Dallas in early 2018 at 25 years old and was still in this place of not knowing where life would take me. I always had grand ideas that were mostly followed with "that would be a cool app", and so I started to wonder how I could actually build these "cool apps". I have been constantly grinding to learn more about web development and being able to bring these grand ideas to life. I believe the best thing someone can do is bring value to others and hope to do so with the applications I am working on, so lets build one!</p>
+                        <p>I am a US Air Force Veteran and former community manager transitioning into a career as a full stack software engineer. I am passionate about helping people and learning new things. These passions led to the pursuit of a career in web development where I specialize in working with React.js, Node.js, and SQL.
+                            
+                        When I'm not coding, I'm probably looking for a concert to attend in Deep Ellum, traveling with family and friends, or volunteering at a local community center. </p>
                         <ul className="actions">
                             {/* <li><a href="#" className="button">Learn More</a></li> */}
                         </ul>

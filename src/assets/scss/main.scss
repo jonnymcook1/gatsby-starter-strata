@@ -438,7 +438,7 @@
 		@include icon;
 		border-bottom: none;
 		position: relative;
-		font-size: 1.5em !important;
+		font-size: 1.5em ;
 
 		> .label {
 			display: none;
@@ -580,7 +580,7 @@
 		padding-left: 1em;
 
 		li {
-			padding-left: 0.5em;
+			// padding-left: 0.5em;
 		}
 
 		&.alt {
@@ -605,7 +605,7 @@
 
 			li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				// padding: px
 
 				&:last-child {
 					padding-right: 0;
@@ -904,6 +904,8 @@
 			line-height: 1.5em;
 			margin: 0;
 			margin-bottom: 10px !important;
+			justify-content: center !important;
+			align-items: center !important;
 		}
 	}
 
