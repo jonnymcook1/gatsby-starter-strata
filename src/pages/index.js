@@ -21,6 +21,8 @@ import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/thumbs/2019-07-11 (3).png'
 import full08 from '../assets/images/thumbs/alpha1.png'
 
+import Jonny from '../../src/assets/images/thumbs/JonnyDallas.jpg'
+
 const DEFAULT_IMAGES = [
     { id: '1', source: full07, thumbnail: full07, description: 'bookr is an application to book artist and influencers for an event. bookr lets any artist register and users can then send in an event request which the artist can accept or decline. Inspired by the notorious "FyreFestival". ', link: 'https://bookr.us/#/' , website: 'bookr.us', github: 'https://github.com/jonnymcook1/bookr'},
     { id: '2', source: full08, thumbnail: full08, description: 'Alpha was a group project that was a mash up of all the best parts on the top airline industries websites. With Alpha, members and users can book flights using the Sabre API and also create their own account to gain travel points.', link: 'alpha.com', website: 'alpha.com', github: 'https://github.com/flight-club'},
@@ -48,7 +50,7 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
-                        <meta property='og:image' content={siteImage} />
+                        <meta property='og:image' content={Jonny} />
                 </Helmet>
 
                 <div id="main">
