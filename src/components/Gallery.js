@@ -38,6 +38,8 @@ class Gallery extends Component {
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
+                    <a href={obj.link}>{obj.website}</a>
+                    <a href={obj.github} className="icon fa-github"><span className="label" >{obj.github}</span></a>
                 </article>
             );
         });
