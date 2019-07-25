@@ -25,7 +25,7 @@ import Jonny from '../../src/assets/images/thumbs/JonnyDallas.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: full07, thumbnail: full07, description: 'bookr is an application to book artist and influencers for an event. bookr lets any artist register and users can then send in an event request which the artist can accept or decline. Inspired by the notorious "FyreFestival". ', link: 'https://bookr.us/#/' , website: 'bookr.us', github: 'https://github.com/jonnymcook1/bookr'},
-    { id: '2', source: full08, thumbnail: full08, description: 'Alpha was a group project that was a mash up of all the best parts on the top airline industries websites. With Alpha, members and users can book flights using the Sabre API and also create their own account to gain travel points.', link: 'alpha.com', website: 'alpha.com', github: 'https://github.com/flight-club'},
+    { id: '2', source: full08, thumbnail: full08, description: 'Alpha was a group project that was a mash up of all the best parts on the top airline industries websites. With Alpha, members and users can book flights using the Sabre API and also create their own account to gain travel points.', link: 'alpha.com', website: 'https://alphaair.us/#/', github: 'https://github.com/flight-club'},
     // { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
