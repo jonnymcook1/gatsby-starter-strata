@@ -59,7 +59,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About</h2>
                         </header>
-                        <p>I am a US Air Force Veteran and former community manager transitioning into a career as a full stack software engineer. I am passionate about helping people and learning new things. These passions led to the pursuit of a career in web development where I specialize in working with React.js, Node.js, and SQL.
+                        <p>I am a US Air Force Veteran and former community manager transitioning into a career as a full stack web developer. I am passionate about helping people and learning new things. These passions led to the pursuit of a career in web development where I specialize in working with React.js, Node.js, and SQL.
                             
                         When I'm not coding, I'm probably looking for a concert to attend in Deep Ellum, traveling with family and friends, or volunteering at a local community center. </p>
                         <ul className="actions">
