@@ -122,7 +122,7 @@ class HomeIndex extends React.Component {
                                         United States
                                     </li>
                                     <li href='tel:4058225743'>
-                                        <h3 className="icon fa-mobile" href='tel:4058225743'><span className="label">Phone</span></h3>
+                                        <h3 className="icon fa-mobile" href='tel:4058225743'><span className="label" href='tel:4058225743'>Phone</span></h3>
                                         405-822-5743
                                     </li>
                                     <li>
